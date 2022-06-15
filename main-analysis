@@ -1074,13 +1074,5 @@ sum(test1$admdt-test1$sdate+1)/365.25#3810.114
 1064/(297549.8+3810.114)*1000
 
 
-nnn <- test1 %>% 
-  filter(!Reference.Key.%in%afinalb$Reference.Key.)
-
-
-nnn1 <- a9_5 %>% 
-  filter(Reference.Key.==1400119)
-
-
 
 
